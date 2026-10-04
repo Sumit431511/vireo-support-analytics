@@ -1,0 +1,21 @@
+# Local credentials and sensitive keys
+.env
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Recording temporary frames and profiles
+artifacts/walkthrough_frames/
+artifacts/walkthrough_chrome_profile*/
+artifacts/*.log
+
+# AI cache (generated output)
+artifacts/ai_cache/
